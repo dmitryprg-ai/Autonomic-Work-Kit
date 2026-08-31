@@ -1,0 +1,102 @@
+# Лицензии
+
+Copyright © 2026 Dmitry Batulin ([@dmitryprg-ai](https://github.com/dmitryprg-ai))
+
+Репозиторий распространяется по **двум лицензиям**: одна для текстов,
+которые читает человек, другая для файлов, которые исполняет машина.
+Полные тексты — в `LICENSE-DOCS` и `LICENSE-CODE`.
+
+## Что чем лицензировано
+
+| путь | лицензия | SPDX |
+|---|---|---|
+| `README.md` | Creative Commons Attribution-NonCommercial 4.0 International | `CC-BY-NC-4.0` |
+| `examples/**` | Creative Commons Attribution-NonCommercial 4.0 International | `CC-BY-NC-4.0` |
+| `scripts/**` | PolyForm Noncommercial License 1.0.0 | `PolyForm-Noncommercial-1.0.0` |
+| `.claude/**` | PolyForm Noncommercial License 1.0.0 | `PolyForm-Noncommercial-1.0.0` |
+| `templates/**` | PolyForm Noncommercial License 1.0.0 | `PolyForm-Noncommercial-1.0.0` |
+
+Граница проведена по назначению файла, а не по расширению. Файлы
+в `.claude/` и `templates/` — тоже Markdown, но это **инструкции, которые
+читает и исполняет агент**, и предназначены они для правки под свой
+проект. Поэтому они идут под программной лицензией: Creative Commons
+сама не рекомендует применять CC-лицензии к программному обеспечению.
+
+**Правило разрешения спора.** Если файл можно отнести к обеим категориям
+(например, пример плана, который разбирает `scripts/lint-selftest.mjs`), —
+действует PolyForm Noncommercial 1.0.0.
+
+## Что требуется от вас
+
+**Некоммерческое использование разрешено при указании авторства.**
+
+При использовании, копировании и изменении:
+
+1. Сохраните строку копирайта и указание автора.
+2. Дайте ссылку на исходный репозиторий:
+   https://github.com/dmitryprg-ai/Autonomic-Work-Kit
+3. Отметьте, что вы внесли изменения, если вы их вносили (требование
+   CC BY-NC 4.0 для материалов из первой таблицы).
+4. Не удаляйте файлы `LICENSE`, `LICENSE-DOCS`, `LICENSE-CODE` при
+   распространении.
+
+## Коммерческое использование
+
+Коммерческое использование по этим лицензиям **не разрешено**.
+Оно допускается только по отдельному письменному разрешению автора.
+
+За коммерческой лицензией: **dmitryprg@gmail.com**
+
+## Терминология
+
+Это **source-available**, а не open source. Открытая лицензия по
+определению Open Source Initiative обязана разрешать коммерческое
+использование (пункт 6 «No Discrimination Against Fields of Endeavor»,
+https://opensource.org/osd), а обе лицензии здесь его запрещают.
+Называть репозиторий «open source» — неверно.
+
+По той же причине GitHub не определит лицензию автоматически: пары
+«CC BY-NC + PolyForm» в его классификаторе нет. При создании репозитория
+выбирайте **None**, а файлы лицензий добавляйте вручную.
+
+## Вклад
+
+Присылая изменения (pull request, патч, issue с кодом), вы соглашаетесь,
+что они распространяются на тех же условиях и по той же границе путей.
+
+## Оговорка
+
+Этот файл — навигация по лицензиям, а не сама лицензия. Он не расширяет
+и не сужает права, данные текстами в `LICENSE-DOCS` и `LICENSE-CODE`.
+При расхождении действуют они.
+
+---
+
+# License (English summary)
+
+Copyright © 2026 Dmitry Batulin ([@dmitryprg-ai](https://github.com/dmitryprg-ai))
+
+This repository is **dual-licensed**. Human-readable material is under
+`CC-BY-NC-4.0`; machine-executed material is under
+`PolyForm-Noncommercial-1.0.0`.
+
+- `CC-BY-NC-4.0` — `README.md`, `examples/**` (see `LICENSE-DOCS`)
+- `PolyForm-Noncommercial-1.0.0` — `scripts/**`, `.claude/**`,
+  `templates/**` (see `LICENSE-CODE`)
+
+The boundary follows purpose, not file extension: files under `.claude/`
+and `templates/` are Markdown, but they are instructions executed by an
+agent and meant to be modified per project, so a software license applies.
+**If a file could fall under both, PolyForm Noncommercial 1.0.0 governs.**
+
+Noncommercial use is permitted **with attribution**: keep the copyright
+notice, link to https://github.com/dmitryprg-ai/Autonomic-Work-Kit, and
+indicate if you made changes. Commercial use requires separate written
+permission: **dmitryprg@gmail.com**
+
+This is **source-available**, not open source: an OSI-approved license
+must permit commercial use (https://opensource.org/osd), and neither
+license here does.
+
+This file is a map, not a license. Where it differs from the texts in
+`LICENSE-DOCS` and `LICENSE-CODE`, those texts govern.

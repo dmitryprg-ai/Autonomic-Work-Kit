@@ -1,0 +1,21 @@
+# временные файлы при заполнении лицензий
+LICENSE-DOCS.body
+LICENSE-CODE.body
+
+# архивы поставки
+*.zip
+
+# мусор ОС и редакторов
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+.idea/
+.vscode/
+
+# на случай, если появятся зависимости
+node_modules/
+
+# рабочие файлы конкретного проекта, а не кита:
+# PLAN.md / STATE.md / CLAUDE.md живут в проекте-потребителе, не здесь
